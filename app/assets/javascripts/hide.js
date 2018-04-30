@@ -1,7 +1,3 @@
-function hideWhenClicked(event) {
-  debugger;
-  let $target = $(event.target);
-  $target.hide();
+function hideWhenClicked() {
+  document.getElementById("hide_this").style.display = "none"
 }
-
-$('#hide_this').click(hideWhenClicked);
