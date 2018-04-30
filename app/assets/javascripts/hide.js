@@ -1,4 +1,5 @@
 function hideWhenClicked(event) {
+  debugger;
   let $target = $(event.target);
   $target.hide();
 }
